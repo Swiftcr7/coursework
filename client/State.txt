@@ -1,0 +1,8 @@
+Add pool: (pool name) [ {allocator_buddies} {10000000} ]
+Add scheme: (pool name) (scheme)
+Add scheme: (pool name) (scheme name)
+Add collection: (pool name) (scheme name) (collection) [AVL_tree]
+Add collection: (pool name) (scheme name) (collection name) [red_black_tree]
+Insert: (pool name) (scheme name) (collection name)
+Key: (1313) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)

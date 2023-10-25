@@ -1,0 +1,31 @@
+Add pool: (pool name) [ {allocator_buddies} {10000000} ]
+Add scheme: (pool name) (scheme name)
+Add collection: (pool name) (scheme name) (collection name) [red_black_tree]
+Insert: (pool name) (scheme name) (collection name)
+Key: (1313) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)
+Insert: (pool name) (scheme name) (collection name)
+Key: (1350) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)
+Insert: (pool name) (scheme name) (collection name)
+Key: (1360) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)
+Insert: (pool name) (scheme name) (collection name)
+Key: (1370) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)
+Insert: (pool name) (scheme name) (collection name)
+Key: (1380) (2124) (name subject) (exam)
+Value: (name student) (surname student) (patronymic student) (exam_date) (start date) (4) (name teacher) (surname teacher) (patronymic teacher)
+Remove: (pool name) (scheme name) (collection name)
+Key: (1380) (2124) (name subject) (exam)
+Get key information: (pool name) (scheme name) (collection name)
+Key: (1370) (2124) (name subject) (exam)
+Update key: (pool name) (scheme name) (collection name)
+Key: (1370) (2124) (name subject) (exam)
+Value: (name) (surname) (patronymic) (egv) (start) (3) (name_t) (surname_t) (patronymic_t)
+Read range: (pool name) (scheme name) (collection name)
+[]
+[]
+Read range: (pool name) (scheme name) (collection name)
+[Key: (1340) (2124) (name subject) (exam)]
+[Key: (1590) (2124) (name subject) (exam)]
